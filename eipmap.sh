@@ -17,7 +17,7 @@ declare -a OPENPORTS
 validIP=1
 
 echo -e "EIPmap developed by Juan Manuel Fernandez Reyes."
-echo -e "\nExec time: $(date)"
+echo -e "Exec time: $(date)"
 
 until [ $validIP == 0 ]; do
 	echo -e "\nEnter an IP/Domain to scan:"

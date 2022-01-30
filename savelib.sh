@@ -8,7 +8,7 @@
 
 function save_csv() {
 
-	#Cleaning preview search.
+	#Cleaning preview search file.
 	> $ip_domain.csv
 
 	for port in ${OPENPORTS[@]}; do
