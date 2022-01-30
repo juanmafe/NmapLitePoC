@@ -6,6 +6,6 @@ Proof of concept of a NMAP Lite for cibersecurity educational purposes only, <a 
 * Bash interpreter.
 
 # Options
-When starting the script, you must introduce a valid IP/domain and a port limit to scan.
+When starting the script, you must introduce a valid IP/domain and a port limit to scan. It will generate a csv file at the end of the scanning process.
 
 ![Example image](example.png)
