@@ -35,8 +35,8 @@ function validate_domain() {
 		return 0;
 	fi
 
-	# Validating first argument Domain format. Regex source: https://stackoverflow.com/questions/10306690/what-is-a-regular-expression-which-will-match-a-valid-domain-name-without-a-subd
-	if [[ $ip_domain =~ ^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9]\.[a-zA-Z]{2,}$ ]]; then
+	# Validating first argument Domain format.
+	if [[ $ip_domain =~ ^[a-z].[a-z] ]]; then
 		return 0;
 	fi
 
